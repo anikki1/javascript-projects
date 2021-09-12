@@ -1,0 +1,14 @@
+//this is the constant value of kelvin
+const kelvin = 230
+// converting kelvin to celcius
+const celcius = kelvin - 273
+// converting celcius to fahrenheit 
+let fahrenheit = celcius * (9/5) + 32
+// rounding 
+fahrenheit = Math.floor(fahrenheit);
+const TEMPERATURE = fahrenheit
+console.log(`The temperature is ${TEMPERATURE} degrees Fahrenheit`);
+let newton = celcius *(33/100)
+newton = Math.floor(newton);
+const TEMP = newton
+console.log(`The temperature is ${TEMP} degrees newton`)
